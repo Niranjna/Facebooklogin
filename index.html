@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niranjna</title>
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <!--custom css-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="jo">
+    <nav class="navbar navbar-expand-sm  sumo">
+        <div class="container">
+            <div class="pt-3 ml-5 ">
+                <a href="#" class="navbar-brand text-white"><strong class="h1">facebook</strong></a>
+            </div>    
+            <button class="navbar-toggler" data-toggler="collapse" data-target="#vicky">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="vicky">
+                <div class="vik pt-2">
+                    <button class="btn btn-primary py-0 px-0">Login in to Existing Account</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--form-->
+    <section >
+        <div class="container8 text-lg-left">
+            <form >
+                <div class=" pt-3">
+                    <h1>Create a new account</h1>
+                    <p class="h4 text-muted pr-2">It's quick and easy.</p>
+                </div>
+                <div class="row pt-2">
+                  <div class="col-md-2 mb-2">
+                    <input type="text" class="form-control " placeholder="First name" value="" required>
+                    <div class="invalid-feedback">
+                      Valid first name is required.
+                    </div>
+                  </div>
+                  <div class="col-md-2 mb-2"> 
+                    <input type="text" class="form-control " placeholder="Sur name" value="" required>
+                    <div class="invalid-feedback">
+                      Valid sur name is required.
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-2 xil">
+                  <input type="text" class="form-control " placeholder="Eg:XYZ@123" value="" required>
+                    <div class="invalid-feedback">
+                      Valid E-mail address is required.
+                    </div>
+                </div>
+                <div class="mb-2  xil">
+                  <input type="password" class="form-control " placeholder="Password" value="" required>
+                  <div class="invalid-feedback">
+                    Please enter a valid password.
+                  </div>
+                </div>
+    
+                <div class="row col-md-6">
+                    <div><h5 class="text-muted dev">DOB</h5></div>
+                    <div class="dropdown col-md-2 mr-4">
+                        <button class="btn bg-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          date
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+    
+                  <div class="dropdown col-md-2 mr-4">
+                    <button class="btn bg-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      month
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                  
+                  <div class="dropdown col-md-2 mr-4">
+                    <button class="btn bg-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Year
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                </div>
+
+                <h3 class="mb-2 text-muted pt-2">Gender</h3>
+                <div class="row pl-3">
+                <div class="form-check pr-2">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked required>
+                  <label class="form-check-label" for="exampleRadios1">
+                    Male
+                  </label>
+                </div>
+                <div class="form-check pr-2">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" required>
+                  <label class="form-check-label" for="exampleRadios2">
+                    Female
+                  </label>
+                </div>
+                <div class="form-check pr-2">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" required>
+                  <label class="form-check-label" for="exampleRadios3">
+                    Custom 
+                  </label>
+                </div>
+                </div>
+                <div class="col-md-4">
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores officia modi velit repellendus commodi <a href="#">Niru</a> nobis perferendis esse, veritatis, quasi cum <a href="#">shaheer</a> maxime! Nostrum distinctio eum totam.</small>
+                </div>
+    
+                <div class="pt-2">
+                  <button class="btn btn-lg bg-info text-white px-5" type="submit">Signup</button>
+                </div>
+                <br />
+            </form>
+        </div>
+
+    </section>
+
+
+
+    <!--bootstrap js-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+    <!--bootstrap js-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
